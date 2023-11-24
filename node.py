@@ -11,15 +11,15 @@ class Node:
 
 class Graph:
     def __init__(self,nodes:list):
-        self.__Vertices=nodes
+        self._Vertices=nodes
         self.current=0
     def append(self,node:Node):
-        self.__Vertices.append(node)
+        self._Vertices.append(node)
 
     ## Makes class subscriptable
     def __getitem__(self,item):
-        return self.__Vertices[item]
+        return self._Vertices[item]
     ## Allows for iteration over class as if it is an array
     def __iter__(self):
-        for x in self.__Vertices:
+        for x in self._Vertices:
             yield x
