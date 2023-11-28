@@ -1,6 +1,6 @@
 import math
 from djikstra.node import *
-import time
+import timeit
 
 
 
@@ -53,6 +53,6 @@ def Dijkstra(Graph:Graph,source:Node):
                 if alt < dist[str(v[0])]:
                     dist[str(v[0])]=alt
                     prev[str(v[0])]=u
-    return dist,prev,time.time()
+    return dist,prev,timeit.default_timer()
 
 
