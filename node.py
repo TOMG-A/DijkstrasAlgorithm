@@ -15,6 +15,9 @@ class Graph:
         self.current=0
     def append(self,node:Node):
         self._Vertices.append(node)
+    def __len__(self) -> int:
+        a=len(self._Vertices)
+        return a
 
     ## Makes class subscriptable
     def __getitem__(self,item):
