@@ -13,8 +13,11 @@ pip install -i https://test.pypi.org/simple/ djikstras-algorithm-TOMG-A
 ## Usage
 
 ```python
-import djikstra
-djikstra.Djikstra(graph,startPoint)
+from djikstra import *
+
+NodeA=Node("A")
+graph=Graph(NodeA)
+dist,prev=Djikstra(graph,NodeA)
 ```
 
 ## License
