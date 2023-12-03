@@ -4,7 +4,7 @@ A simple Djikstra's Algorithm implementation
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install the package.
 
 ```bash
 pip install -i https://test.pypi.org/simple/ djikstras-algorithm-TOMG-A
