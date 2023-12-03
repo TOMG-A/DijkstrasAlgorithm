@@ -20,3 +20,5 @@ djikstra.Djikstra(graph,startPoint)
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
+
+[![Upload Python Package](https://github.com/TOMG-A/DjikstrasAlgorithm/actions/workflows/python-publish.yml/badge.svg)](https://github.com/TOMG-A/DjikstrasAlgorithm/actions/workflows/python-publish.yml)
