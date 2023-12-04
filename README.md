@@ -25,8 +25,5 @@ NodeA=Node("A")
 graph=Graph(NodeA)
 dist,prev,_=Dijkstra(graph,NodeA)
 ```
-For more examples [click here](https://github.com/TOMG-A/DijkstrasAlgorithm/blob/main/tests).\
-For project utilizing this package [click here](https://github.com/TOMG-A/DijkstrasAlgorithm/blob/main/tests).
-
 
 
