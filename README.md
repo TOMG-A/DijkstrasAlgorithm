@@ -1,27 +1,27 @@
-# Djikstra's Algorithm Implementation
+# Dijkstra's Algorithm Implementation
 
-A simple Djikstra's Algorithm implementation
+A simple Dijkstra's Algorithm implementation
 
 ## Installation
 
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install the package.
 
 ```bash
-pip install -i https://test.pypi.org/simple/ djikstras-algorithm-TOMG-A
+pip install -i https://test.pypi.org/simple/ dijkstras-algorithm-TOMG-A
 ```
 
 ## Usage
 
 ```python
-from djikstra import *
+from dijkstra import *
 
 NodeA=Node("A")
 graph=Graph(NodeA)
-dist,prev=Djikstra(graph,NodeA)
+dist,prev,_=Dijkstra(graph,NodeA)
 ```
 
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
 
-[![Upload Python Package](https://github.com/TOMG-A/DjikstrasAlgorithm/actions/workflows/python-publish.yml/badge.svg)](https://github.com/TOMG-A/DjikstrasAlgorithm/actions/workflows/python-publish.yml)
+[![Upload Python Package](https://github.com/TOMG-A/DijkstrasAlgorithm/actions/workflows/python-publish.yml/badge.svg)](https://github.com/TOMG-A/DijkstrasAlgorithm/actions/workflows/python-publish.yml)

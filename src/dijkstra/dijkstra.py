@@ -1,5 +1,5 @@
 import math
-from djikstra.node import *
+from dijkstra.node import *
 import timeit
 
 def Dijkstra(Graph:Graph,source:Node):
