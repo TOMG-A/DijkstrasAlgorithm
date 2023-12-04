@@ -45,7 +45,7 @@ jobs:
       uses: irongut/EditRelease@v1.2.0
       with:
         token: ${{secrets.GITHUB_TOKEN}}
-        id: ${{steps.keydb.outputs.id}}
+        id: ${{github.event.release.id}}
         body: "**PyPI Page: **test.pypi.org/manage/project/dijkstras-algorithm-TOMG-A/release/${{steps.read_toml.outputs.value}}"
             
             
