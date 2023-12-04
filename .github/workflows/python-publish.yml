@@ -39,7 +39,7 @@ jobs:
         field: 'project.version'
     - name: Get Latest Release
       uses: pozetroninc/github-action-get-latest-release@v0.7.0
-    - with:
+      with:
         repository: ${{ github.repository }}
     - name: Edit Release
       uses: irongut/EditRelease@v1.2.0
