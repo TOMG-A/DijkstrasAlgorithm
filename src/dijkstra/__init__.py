@@ -1,7 +1,7 @@
 """
 Djikstra's Algorithm
 ========
-See https://github.com/TOMG-A/djikstra/README.md for documentation
+See https://github.com/TOMG-A/DijkstrasAlgorithm/README.md for documentation
 """
 
 
