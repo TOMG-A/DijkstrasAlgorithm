@@ -1,5 +1,5 @@
 [project]
-name = "djikstras_algorithm_TOMG_A"
+name = "dijkstras_algorithm_TOMG_A"
 version = "0.1.0"
 authors = [
   { name="TOMG-A", email="im.tomtomon@gmail.com" },
