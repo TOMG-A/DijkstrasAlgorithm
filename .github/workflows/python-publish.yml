@@ -8,7 +8,7 @@ on:
     types: [published]
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   deploy:
@@ -29,6 +29,7 @@ jobs:
     - name: Build package
       run: python -m build
     - name: Publish Package
+      continue-on-error: True
       run: |
         python -m twine upload --repository testpypi dist/* -u __token__ -p ${{ secrets.PYPI_API_TOKEN }}              
     - name: TOML Reader       
@@ -37,10 +38,6 @@ jobs:
       with:
         file: 'pyproject.toml'
         field: 'project.version'
-    - name: Get Latest Release
-      uses: pozetroninc/github-action-get-latest-release@v0.7.0
-      with:
-        repository: ${{ github.repository }}
     - name: Edit Release
       uses: irongut/EditRelease@v1.2.0
       with:
