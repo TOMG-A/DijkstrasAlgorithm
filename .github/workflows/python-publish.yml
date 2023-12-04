@@ -29,7 +29,7 @@ jobs:
     - name: Build package
       run: python -m build
     - name: Publish Package
-      continue-on-error: True
+      continue-on-error: true
       run: |
         python -m twine upload --repository testpypi dist/* -u __token__ -p ${{ secrets.PYPI_API_TOKEN }}              
     - name: TOML Reader       
