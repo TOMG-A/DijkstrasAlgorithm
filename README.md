@@ -22,6 +22,6 @@ dist,prev,_=Dijkstra(graph,NodeA)
 
 ## License
 
-[MIT]([https://choosealicense.com/licenses/mit/](https://github.com/TOMG-A/DijkstrasAlgorithm/blob/main/LICENSE))
+[MIT]([https://choosealicense.com/licenses/mit/](https://github.com/TOMG-A/DijkstrasAlgorithm/blob/main/LICENSE)
 
 [![Upload Python Package](https://github.com/TOMG-A/DijkstrasAlgorithm/actions/workflows/python-publish.yml/badge.svg)](https://github.com/TOMG-A/DijkstrasAlgorithm/actions/workflows/python-publish.yml)
