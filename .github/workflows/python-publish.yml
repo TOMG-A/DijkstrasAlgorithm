@@ -44,6 +44,6 @@ jobs:
       with:
         token: ${{secrets.GITHUB_TOKEN}}
         id: ${{github.event.release.id}}
-        body: "\ **PyPI Page:** [Click Here](https://test.pypi.org/project/dijkstras-algorithm-TOMG-A/dijkstras-algorithm-TOMG-A/${{steps.read_toml.outputs.value}})"
+        body: "\r\n**PyPI Page:** [Click Here](https://test.pypi.org/project/dijkstras-algorithm-TOMG-A/dijkstras-algorithm-TOMG-A/${{steps.read_toml.outputs.value}})"
             
             
