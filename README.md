@@ -1,6 +1,10 @@
 # Dijkstra's Algorithm Implementation
+[![License](https://img.shields.io/badge/License-MIT-blue)](#license)
+[![Sample Project - View](https://img.shields.io/badge/Sample_Project-View-informational?logo=github)](https://)
+[![Upload Python Package](https://github.com/TOMG-A/DijkstrasAlgorithm/actions/workflows/python-publish.yml/badge.svg)](https://github.com/TOMG-A/DijkstrasAlgorithm/actions/workflows/python-publish.yml)
 
 A simple Dijkstra's Algorithm implementation
+
 
 ## Installation
 
@@ -12,6 +16,8 @@ pip install -i https://test.pypi.org/simple/ dijkstras-algorithm-TOMG-A
 
 ## Usage
 
+
+
 ```python
 from dijkstra import *
 
@@ -19,9 +25,8 @@ NodeA=Node("A")
 graph=Graph(NodeA)
 dist,prev,_=Dijkstra(graph,NodeA)
 ```
+For more examples [click here](https://github.com/TOMG-A/DijkstrasAlgorithm/blob/main/tests).\
+For project utilizing this package [click here](https://github.com/TOMG-A/DijkstrasAlgorithm/blob/main/tests).
 
-## License
 
-[MIT](https://github.com/TOMG-A/DijkstrasAlgorithm/blob/main/LICENSE)
 
-[![Upload Python Package](https://github.com/TOMG-A/DijkstrasAlgorithm/actions/workflows/python-publish.yml/badge.svg)](https://github.com/TOMG-A/DijkstrasAlgorithm/actions/workflows/python-publish.yml)
