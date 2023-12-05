@@ -25,7 +25,11 @@ pip install dijkstra-tg
 from dijkstra import *
 
 NodeA=Node("A")
-graph=Graph(NodeA)
+NodeB=Node("B")
+
+NodeA.append(NodeB,12)
+graph=Graph([NodeA,NodeB])
+
 dist,prev,_=Dijkstra(graph,NodeA)
 ```
 
