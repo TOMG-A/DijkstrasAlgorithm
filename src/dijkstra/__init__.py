@@ -1,5 +1,5 @@
 """
-Djikstra's Algorithm
+Dijkstra's Algorithm
 ========
 See https://github.com/TOMG-A/DijkstrasAlgorithm/README.md for documentation
 """
