@@ -32,7 +32,7 @@ jobs:
     - name: Publish Package
       continue-on-error: true
       run: |
-        python -m twine upload --repository testpypi dist/* -u __token__ -p ${{ secrets.PYPI_API_TOKEN }}              
+        python -m twine upload dist/* -u __token__ -p ${{ secrets.PYPI_API_TOKEN }}              
     - name: TOML Reader       
       uses: SebRollen/toml-action@v1.0.2  
       id: read_toml
