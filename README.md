@@ -14,7 +14,7 @@ A simple Dijkstra's Algorithm implementation
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install the package.
 
 ```bash
-pip install -i https://test.pypi.org/simple/ dijkstras-algorithm-TOMG-A
+pip install dijkstra-tg
 ```
 
 ## Usage
